@@ -9,10 +9,12 @@ def safe_first_element(lst):
     else:
         return None
 
-{'lst': typing.Sequence[typing.Any], 'return': typing.Union[typing.Any, NoneType]}
+{'lst': typing.Sequence[typing.Any],
+'return': typing.Union[typing.Any, NoneType]}
 """
 
 from typing import Any, Sequence, Union
+
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """ duck-typed annotation"""

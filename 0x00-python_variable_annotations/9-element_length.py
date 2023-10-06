@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Annotate the below function’s parameters and return values with 
+Annotate the below function’s parameters and return values with
 the appropriate types
 
 def element_length(lst):
@@ -13,6 +13,7 @@ expected output:
 
 
 from typing import Iterable, Tuple, Sequence, List
+
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """returns a list of tuples"""
