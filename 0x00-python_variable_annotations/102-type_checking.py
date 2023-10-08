@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-using mypy to alidate the following piece of code 
+using mypy to alidate the following piece of code
 and apply any necessary changes.
 """
 
