@@ -22,5 +22,5 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
         order without using sort().
     """
     delay_rand = [await task_wait_random(max_delay) for _ in range(n)]
-    delay_rand.sort()
+    # delay_rand.sort()
     return delay_rand
